@@ -1,39 +1,28 @@
-# Project Observers 🌸
+# Welcome! 🌸
 
-Welcome to the Flowershow Template! This is a ready-to-use template for creating beautiful websites from your markdown content, particularly optimized for Obsidian vaults.
+To the public showcase of my personal IP Project Observers!
 
-## What is this template?
+## What am I looking at?
 
-This template serves as a foundation for:
-- Publishing your Obsidian vault as a website
-- Creating a new markdown-based website from scratch
-- Building documentation sites, blogs, or personal websites
+This page is just the welcoming screen to the vault itself. You can choose where to go next from here by clicking on the list on the top left
 
-## Getting Started
+## The purpose
 
-You can use this template in two main ways:
+There are a lot of reasons for this showcase, some of them are:
 
-### 1. Publishing Your Obsidian Vault
+### 1. Getting it out there
 
-If you have an existing Obsidian vault:
-1. Install Obsidian Flowershow plugin
-2. Adjust the configuration
-3. Publish you vault
+Like any art, it will have a hard time serving the broader purpose of bridging ideas / information to others if kept to oneself.
 
-Your Obsidian links, callouts, and other features will be preserved and rendered beautifully on the web.
+### 2. A medium of accountabiity
 
-### 2. Creating a New Site
+I am human just like any others, and I do procrastinate too. This shall be a constant reminder to me to keep updating the wiki and working on it because others can see it too.
 
-If you're starting from scratch:
-1. Use this template as your base
-2. Modify the content as you wish using an editor of your choise (or GitHub UI)
-3. Add your own markdown files
+## Footnote
 
-## Learn More
-
-For more information about Flowershow and how to customize this template, visit:
-- [Flowershow Documentation](https://flowershow.app/docs)
+This IP is a lifetime of work and a legacy to me. Whatever I left here shall be one of my best works throughout my life.
+I hope it is entertaining to explore.
 
 ---
 
-Happy publishing! 🚀
+Happy Reading! 🚀
