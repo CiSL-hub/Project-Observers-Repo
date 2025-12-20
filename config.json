@@ -1,7 +1,9 @@
 {
   "showSidebar": true
+}
+{
   "theme": {
-  "defaultMode": "dark"  // or "light" or "system"
+    "defaultMode": "system",
+    "showModeSwitch": true
   }
-
 }
