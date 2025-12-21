@@ -1,0 +1,4 @@
+
+“No wish is given freely. The Core drinks deeper than oceans, taking not what is offered, but what is needed. It swallows years like sand, turns laughter into silence, and steals names until none remember them. All who dare its gift must pay, though they know not what is owed. And yet, the granted desire is no true boon. For what is returned is but an echo, a hollow shadow of the heart’s cry. Empires rose, but their stones crumbled to dust. Lovers clasped hands, but forgot the faces they once adored. What the Core bestows, also unravels, beyond remains of ashes where longing once burned.” 
+
+*“The Eclipsed Core bestows only the transient, and claims the unreturning.”*
