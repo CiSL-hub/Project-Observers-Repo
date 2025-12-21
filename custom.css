@@ -1,18 +1,11 @@
 /* =================================================
-   FORCE SANS-SERIF FONT (Flowershow override)
+   GOOGLE FONTS (MUST BE FIRST)
 ================================================= */
 
-body,
-main,
-article,
-.content,
-.markdown-preview-view {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 /* =================================================
-   LIGHT MODE (tan + brown)
+   LIGHT MODE VARIABLES (tan + brown)
 ================================================= */
 
 html {
@@ -25,16 +18,8 @@ html {
   --heading-color: #7a4a2e;
 }
 
-/* Apply light mode */
-body,
-main,
-article {
-  background-color: var(--bg-main);
-  color: var(--text-main);
-}
-
 /* =================================================
-   DARK MODE (bluish purple black)
+   DARK MODE VARIABLES (bluish purple black)
 ================================================= */
 
 html.dark,
@@ -48,7 +33,18 @@ html[data-theme="dark"] {
   --heading-color: #c8b6ff;
 }
 
-/* Apply dark mode backgrounds explicitly */
+/* =================================================
+   APPLY BACKGROUNDS & TEXT COLORS
+================================================= */
+
+body,
+main,
+article {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+/* Force dark mode backgrounds everywhere */
 html.dark body,
 html.dark main,
 html.dark article,
@@ -60,11 +56,44 @@ html[data-theme="dark"] article {
 }
 
 /* =================================================
-   HEADINGS
+   BODY TEXT — SANS-SERIF (Flowershow-safe)
 ================================================= */
 
-h1, h2, h3, h4, h5, h6 {
-  color: var(--heading-color);
+article,
+article :not(h1, h2, h3, h4, h5, h6) {
+  font-family: 'Source Sans 3',
+    -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Helvetica, Arial, sans-serif !important;
+  color: var(--text-main) !important;
+}
+
+/* =================================================
+   HEADINGS — SERIF (brown light / purple dark)
+================================================= */
+
+article :is(h1, h2, h3, h4, h5, h6) {
+  font-family: 'Playfair Display',
+    Georgia, 'Times New Roman', Times, serif !important;
+  color: var(--heading-color) !important;
+}
+
+/* Optional heading tuning */
+article h2,
+article h3 {
+  font-weight: 500 !important;
+}
+
+/* =================================================
+   NAVIGATION / SIDEBAR / TOP BAR
+================================================= */
+
+nav,
+header,
+.sidebar {
+  font-family: 'Source Sans 3',
+    -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Helvetica, Arial, sans-serif !important;
+  color: var(--text-main) !important;
 }
 
 /* =================================================
@@ -74,5 +103,5 @@ h1, h2, h3, h4, h5, h6 {
 small,
 .muted,
 .metadata {
-  color: var(--text-muted);
+  color: var(--text-muted) !important;
 }
