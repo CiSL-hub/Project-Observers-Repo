@@ -3,14 +3,15 @@
    ========================= */
 
 :root {
-  /* Backgrounds */
+  /* Backgrounds / surfaces */
   --bg-main: #f3e8d6;        /* light tan */
   --bg-secondary: #efe1c9;
 
   /* Text */
   --text-main: #2b2b2b;
-  --text-heading: #7a5c3e;  /* brown headings */
-  --text-heading-muted: #7a5c3e;
+
+  /* UI accents (blocks, nav, etc.) */
+  --accent-primary: #7a5c3e;
 
   /* Fonts */
   --font-body:
@@ -35,8 +36,8 @@ html[data-theme="dark"] {
   --bg-secondary: #1f1b2a;
 
   --text-main: #e6e6eb;
-  --text-heading: #b48cff;  /* purple headings */
-  --text-heading-muted: #b48cff;
+
+  --accent-primary: #b48cff;
 }
 
 /* =========================
@@ -57,7 +58,7 @@ article,
   color: var(--text-main) !important;
 }
 
-/* Sidebar / nav */
+/* Sidebar / navigation blocks */
 nav,
 aside,
 .sidebar {
@@ -66,16 +67,29 @@ aside,
 }
 
 /* =========================
-   HEADINGS (fallback safety)
+   PROSE / ARTICLE TEXT
+   (THIS IS THE IMPORTANT PART)
    ========================= */
 
-article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article h6 {
-  color: var(--text-heading) !important;
+/* Light mode – brown article headings */
+html:not([data-theme="dark"])
+.prose :is(h1, h2, h3, h4, h5, h6),
+html:not([data-theme="dark"])
+article :is(h1, h2, h3, h4, h5, h6),
+html:not([data-theme="dark"])
+.content :is(h1, h2, h3, h4, h5, h6) {
+  color: #7a5c3e !important;
+  font-family: var(--font-body) !important;
+}
+
+/* Dark mode – purple article headings */
+html[data-theme="dark"]
+.prose :is(h1, h2, h3, h4, h5, h6),
+html[data-theme="dark"]
+article :is(h1, h2, h3, h4, h5, h6),
+html[data-theme="dark"]
+.content :is(h1, h2, h3, h4, h5, h6) {
+  color: #b48cff !important;
   font-family: var(--font-body) !important;
 }
 
