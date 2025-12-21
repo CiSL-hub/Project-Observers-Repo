@@ -1,13 +1,16 @@
 /* =========================
-   THEME COLOR VARIABLES
+   LIGHT THEME VARIABLES
    ========================= */
 
 :root {
-  /* Light theme */
-  --bg-main: #f3e8d6;          /* light tan */
+  /* Backgrounds */
+  --bg-main: #f3e8d6;        /* light tan */
   --bg-secondary: #efe1c9;
+
+  /* Text */
   --text-main: #2b2b2b;
-  --heading-light: #7a5c3e;   /* brown */
+  --text-heading: #7a5c3e;  /* brown headings */
+  --text-heading-muted: #7a5c3e;
 
   /* Fonts */
   --font-body:
@@ -21,20 +24,23 @@
     Helvetica,
     Arial,
     sans-serif;
-
-  --font-ui: var(--font-body);
-}
-
-/* Dark theme overrides */
-html[data-theme="dark"] {
-  --bg-main: #16131d;          /* bluish-purplish black */
-  --bg-secondary: #1f1b2a;
-  --text-main: #e6e6eb;
-  --heading-dark: #b48cff;    /* purple */
 }
 
 /* =========================
-   BACKGROUNDS & TEXT
+   DARK THEME VARIABLES
+   ========================= */
+
+html[data-theme="dark"] {
+  --bg-main: #16131d;        /* bluish purplish black */
+  --bg-secondary: #1f1b2a;
+
+  --text-main: #e6e6eb;
+  --text-heading: #b48cff;  /* purple headings */
+  --text-heading-muted: #b48cff;
+}
+
+/* =========================
+   GLOBAL APPLICATION
    ========================= */
 
 body {
@@ -51,44 +57,32 @@ article,
   color: var(--text-main) !important;
 }
 
-/* Sidebar / nav areas */
+/* Sidebar / nav */
 nav,
 aside,
 .sidebar {
   background-color: var(--bg-secondary) !important;
-  font-family: var(--font-ui) !important;
-}
-
-/* =========================
-   FONTS
-   ========================= */
-
-/* Body text */
-article * {
   font-family: var(--font-body) !important;
 }
 
 /* =========================
-   HEADING COLORS (PER THEME)
+   HEADINGS (fallback safety)
    ========================= */
 
-/* Light mode – brown headings */
-html:not([data-theme="dark"]) article
-:is(h1, h2, h3, h4, h5, h6) {
-  color: var(--heading-light) !important;
-}
-
-/* Dark mode – purple headings */
-html[data-theme="dark"] article
-:is(h1, h2, h3, h4, h5, h6) {
-  color: var(--heading-dark) !important;
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  color: var(--text-heading) !important;
+  font-family: var(--font-body) !important;
 }
 
 /* =========================
-   SMALL QUALITY-OF-LIFE
+   LINKS & CODE
    ========================= */
 
-/* Links */
 a {
   color: inherit;
   text-decoration-color: rgba(0, 0, 0, 0.3);
@@ -98,7 +92,6 @@ html[data-theme="dark"] a {
   text-decoration-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Code blocks */
 pre,
 code {
   font-family: ui-monospace, "Liberation Mono", monospace !important;
