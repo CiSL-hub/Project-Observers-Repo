@@ -1,5 +1,5 @@
 /* =================================================
-   FLOWERSHOW — COZY BOOK THEME (ACTUALLY FINAL)
+   FLOWERSHOW — COZY BOOK THEME (FOR REAL FINAL 😤)
    ================================================= */
 
 /* -------------------------
@@ -56,43 +56,15 @@ aside,
 }
 
 /* =================================================
-   HEADING COLORS — FLOWERSHOW-COMPATIBLE OVERRIDE
+   ✨ THE MISSING PIECE — PROSE HEADING COLORS ✨
    ================================================= */
 
-/* ---------- LIGHT MODE ---------- */
-html:not([data-theme="dark"]) article h2,
-html:not([data-theme="dark"]) article h3,
-html:not([data-theme="dark"]) article h4,
-html:not([data-theme="dark"]) article h5,
-html:not([data-theme="dark"]) article h6,
-html:not([data-theme="dark"]) .content h2,
-html:not([data-theme="dark"]) .content h3,
-html:not([data-theme="dark"]) .content h4,
-html:not([data-theme="dark"]) .content h5,
-html:not([data-theme="dark"]) .content h6,
-html:not([data-theme="dark"]) .page-content h2,
-html:not([data-theme="dark"]) .page-content h3,
-html:not([data-theme="dark"]) .page-content h4,
-html:not([data-theme="dark"]) .page-content h5,
-html:not([data-theme="dark"]) .page-content h6 {
-  color: #5f4a36 !important; /* cozy book brown */
+/* LIGHT MODE — book ink */
+html:not([data-theme="dark"]) .rendered-mdx:not(.is-plain) {
+  --tw-prose-headings: #5f4a36; /* cozy brown for H2–H6 */
 }
 
-/* ---------- DARK MODE ---------- */
-html[data-theme="dark"] article h2,
-html[data-theme="dark"] article h3,
-html[data-theme="dark"] article h4,
-html[data-theme="dark"] article h5,
-html[data-theme="dark"] article h6,
-html[data-theme="dark"] .content h2,
-html[data-theme="dark"] .content h3,
-html[data-theme="dark"] .content h4,
-html[data-theme="dark"] .content h5,
-html[data-theme="dark"] .content h6,
-html[data-theme="dark"] .page-content h2,
-html[data-theme="dark"] .page-content h3,
-html[data-theme="dark"] .page-content h4,
-html[data-theme="dark"] .page-content h5,
-html[data-theme="dark"] .page-content h6 {
-  color: #9f93b8 !important; /* soft night purple */
+/* DARK MODE — night purple */
+html[data-theme="dark"] .rendered-mdx:not(.is-plain) {
+  --tw-prose-headings: #9f93b8; /* soft violet for H2–H6 */
 }
