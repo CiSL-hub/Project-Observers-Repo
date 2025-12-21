@@ -1,10 +1,4 @@
 /* =================================================
-   GOOGLE FONTS (MUST BE FIRST)
-================================================= */
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-
-/* =================================================
    LIGHT MODE VARIABLES (tan + brown)
 ================================================= */
 
@@ -34,7 +28,7 @@ html[data-theme="dark"] {
 }
 
 /* =================================================
-   APPLY BACKGROUNDS & TEXT COLORS
+   APPLY BACKGROUNDS & BASE TEXT COLOR
 ================================================= */
 
 body,
@@ -44,7 +38,7 @@ article {
   color: var(--text-main);
 }
 
-/* Force dark mode backgrounds everywhere */
+/* Force dark mode everywhere (Flowershow-safe) */
 html.dark body,
 html.dark main,
 html.dark article,
@@ -56,31 +50,45 @@ html[data-theme="dark"] article {
 }
 
 /* =================================================
-   BODY TEXT — SANS-SERIF (Flowershow-safe)
+   SYSTEM SANS-SERIF FONT (WORKS 100%)
 ================================================= */
 
 article,
-article :not(h1, h2, h3, h4, h5, h6) {
-  font-family: 'Source Sans 3',
-    -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Helvetica, Arial, sans-serif !important;
-  color: var(--text-main) !important;
+article * {
+  font-family:
+    "Segoe UI",
+    -apple-system,
+    BlinkMacSystemFont,
+    Inter,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif !important;
+  color: var(--text-main);
 }
 
 /* =================================================
-   HEADINGS — SERIF (brown light / purple dark)
+   HEADINGS (COLOR + WEIGHT ONLY)
 ================================================= */
 
-article :is(h1, h2, h3, h4, h5, h6) {
-  font-family: 'Playfair Display',
-    Georgia, 'Times New Roman', Times, serif !important;
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
   color: var(--heading-color) !important;
+  font-weight: 600;
 }
 
-/* Optional heading tuning */
-article h2,
-article h3 {
-  font-weight: 500 !important;
+/* Slight hierarchy tuning */
+article h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+article h2 {
+  font-weight: 600;
 }
 
 /* =================================================
@@ -90,14 +98,20 @@ article h3 {
 nav,
 header,
 .sidebar {
-  font-family: 'Source Sans 3',
-    -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Helvetica, Arial, sans-serif !important;
+  font-family:
+    "Segoe UI",
+    -apple-system,
+    BlinkMacSystemFont,
+    Inter,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif !important;
   color: var(--text-main) !important;
 }
 
 /* =================================================
-   MUTED TEXT
+   MUTED / SECONDARY TEXT
 ================================================= */
 
 small,
