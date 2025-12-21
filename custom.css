@@ -1,5 +1,5 @@
 /* =================================================
-   FLOWERSHOW — COZY BOOK THEME (FINAL)
+   FLOWERSHOW — COZY BOOK THEME (ACTUALLY FINAL)
    ================================================= */
 
 /* -------------------------
@@ -56,23 +56,43 @@ aside,
 }
 
 /* =================================================
-   HEADING HIERARCHY (THE PRETTY PART)
+   HEADING COLORS — FLOWERSHOW-COMPATIBLE OVERRIDE
    ================================================= */
 
-/* LIGHT MODE */
-html:not([data-theme="dark"]) article h2 {
-  color: #8a6a4a !important; /* warm soft brown */
+/* ---------- LIGHT MODE ---------- */
+html:not([data-theme="dark"]) article h2,
+html:not([data-theme="dark"]) article h3,
+html:not([data-theme="dark"]) article h4,
+html:not([data-theme="dark"]) article h5,
+html:not([data-theme="dark"]) article h6,
+html:not([data-theme="dark"]) .content h2,
+html:not([data-theme="dark"]) .content h3,
+html:not([data-theme="dark"]) .content h4,
+html:not([data-theme="dark"]) .content h5,
+html:not([data-theme="dark"]) .content h6,
+html:not([data-theme="dark"]) .page-content h2,
+html:not([data-theme="dark"]) .page-content h3,
+html:not([data-theme="dark"]) .page-content h4,
+html:not([data-theme="dark"]) .page-content h5,
+html:not([data-theme="dark"]) .page-content h6 {
+  color: #5f4a36 !important; /* cozy book brown */
 }
 
-html:not([data-theme="dark"]) article h3 {
-  color: #5f4a36 !important; /* muted ink brown */
-}
-
-/* DARK MODE */
-html[data-theme="dark"] article h2 {
-  color: #cbb8ff !important; /* soft lavender */
-}
-
-html[data-theme="dark"] article h3 {
-  color: #9f93b8 !important; /* muted violet-gray */
+/* ---------- DARK MODE ---------- */
+html[data-theme="dark"] article h2,
+html[data-theme="dark"] article h3,
+html[data-theme="dark"] article h4,
+html[data-theme="dark"] article h5,
+html[data-theme="dark"] article h6,
+html[data-theme="dark"] .content h2,
+html[data-theme="dark"] .content h3,
+html[data-theme="dark"] .content h4,
+html[data-theme="dark"] .content h5,
+html[data-theme="dark"] .content h6,
+html[data-theme="dark"] .page-content h2,
+html[data-theme="dark"] .page-content h3,
+html[data-theme="dark"] .page-content h4,
+html[data-theme="dark"] .page-content h5,
+html[data-theme="dark"] .page-content h6 {
+  color: #9f93b8 !important; /* soft night purple */
 }
