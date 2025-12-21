@@ -1,5 +1,5 @@
 /* =================================================
-   FLOWERSHOW COLOR + FONT OVERRIDES (CORRECT WAY)
+   FLOWERSHOW — COZY BOOK THEME (FINAL)
    ================================================= */
 
 /* -------------------------
@@ -12,19 +12,17 @@
   --bg-main: #f3e8d6;
   --bg-secondary: #efe1c9;
 
-  /* Foreground text system (THIS IS THE KEY) */
+  /* Foreground system */
   --color-l-foreground: #2b2b2b;
   --color-foreground-600: #2b2b2b; /* body text */
-  --color-foreground-900: #7a5c3e; /* headings (brown) */
+  --color-foreground-900: #7a5c3e; /* H1 – rich brown */
 
-  /* Fonts */
+  /* Fonts (sans-serif everywhere) */
   --next-font-body: system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Noto Sans", "Liberation Sans",
     Helvetica, Arial, sans-serif;
 
-  --next-font-heading: system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Noto Sans", "Liberation Sans",
-    Helvetica, Arial, sans-serif;
+  --next-font-heading: var(--next-font-body);
 }
 
 /* -------------------------
@@ -36,11 +34,11 @@
   --bg-secondary: #1f1b2a;
 
   --color-foreground-600: #e6e6eb; /* body text */
-  --color-foreground-900: #b48cff; /* headings (purple) */
+  --color-foreground-900: #b48cff; /* H1 – purple */
 }
 
 /* -------------------------
-   APPLY BACKGROUNDS
+   BACKGROUNDS
    ------------------------- */
 
 body,
@@ -51,9 +49,30 @@ article,
   background-color: var(--bg-main) !important;
 }
 
-/* Sidebar / navigation */
 nav,
 aside,
 .sidebar {
   background-color: var(--bg-secondary) !important;
+}
+
+/* =================================================
+   HEADING HIERARCHY (THE PRETTY PART)
+   ================================================= */
+
+/* LIGHT MODE */
+html:not([data-theme="dark"]) article h2 {
+  color: #8a6a4a !important; /* warm soft brown */
+}
+
+html:not([data-theme="dark"]) article h3 {
+  color: #5f4a36 !important; /* muted ink brown */
+}
+
+/* DARK MODE */
+html[data-theme="dark"] article h2 {
+  color: #cbb8ff !important; /* soft lavender */
+}
+
+html[data-theme="dark"] article h3 {
+  color: #9f93b8 !important; /* muted violet-gray */
 }
