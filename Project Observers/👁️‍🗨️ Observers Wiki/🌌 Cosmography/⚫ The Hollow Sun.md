@@ -3,6 +3,7 @@
 
 “It was no sun, no jewel, no god. It was a hollow star, a black heart small enough to hold, yet vast enough to unmake. Mortals named it the Eclipsed Core, mistaking silence for mercy, emptiness for promise.”
 
+---
 
 ### Gravastar
 
