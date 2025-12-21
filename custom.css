@@ -1,78 +1,117 @@
-/* =================================================
-   FLOWERSHOW — COZY BOOK THEME (FINAL)
-   ================================================= */
+/* =====================================================
+   GLOBAL THEME VARIABLES
+   ===================================================== */
 
-/* -------------------------
-   LIGHT THEME
-   ------------------------- */
-
+/* ---------- LIGHT THEME ---------- */
 :root,
 :root[data-theme="light"] {
-  /* Backgrounds */
-  --bg-main: #f3e8d6;
-  --bg-secondary: #efe1c9;
+  --bg-main: #f3e8d6;        /* light tan */
+  --bg-secondary: #efe1c9;  /* slightly darker tan */
 
-  /* Foreground system */
-  --color-l-foreground: #2b2b2b;
-  --color-foreground-600: #2b2b2b; /* body text */
-  --color-foreground-900: #7a5c3e; /* H1 – rich brown */
+  --text-main: #2b2b2b;
 
-  /* Fonts (sans-serif everywhere) */
-  --next-font-body: system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Noto Sans", "Liberation Sans",
-    Helvetica, Arial, sans-serif;
+  /* Heading colors (BOOK / COZY) */
+  --heading-h1: #7a5c3e;
+  --heading-h2: #8a6a4a;
+  --heading-h3: #5f4a36;
+  --heading-h4: #4a3a2c;
+  --heading-h5: #4a3a2c;
+  --heading-h6: #4a3a2c;
 
-  --next-font-heading: var(--next-font-body);
+  /* Fonts */
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, "Noto Sans", "Liberation Sans",
+               Helvetica, Arial, sans-serif;
 }
 
-/* -------------------------
-   DARK THEME
-   ------------------------- */
-
+/* ---------- DARK THEME ---------- */
 :root[data-theme="dark"] {
-  --bg-main: #16131d;
-  --bg-secondary: #1f1b2a;
+  --bg-main: #0e111a;        /* bluish purplish black */
+  --bg-secondary: #151a26;
 
-  --color-foreground-600: #e6e6eb; /* body text */
-  --color-foreground-900: #b48cff; /* H1 – purple */
+  --text-main: #e6e6eb;
+
+  /* Heading colors (PURPLE / NIGHT) */
+  --heading-h1: #cbb8ff;
+  --heading-h2: #b7a6f6;
+  --heading-h3: #9f93b8;
+  --heading-h4: #8a8499;
+  --heading-h5: #8a8499;
+  --heading-h6: #8a8499;
 }
 
-/* -------------------------
+/* =====================================================
    BACKGROUNDS
-   ------------------------- */
+   ===================================================== */
 
-body,
-main,
-article,
-.content,
-.page-content {
+body {
   background-color: var(--bg-main) !important;
+  color: var(--text-main) !important;
+  font-family: var(--font-body) !important;
 }
 
-nav,
+.page,
+.page-content,
+.content,
+article {
+  background-color: var(--bg-main) !important;
+  color: var(--text-main) !important;
+  font-family: var(--font-body) !important;
+}
+
+/* Sidebars / nav / TOC */
 aside,
-.sidebar {
+nav,
+.sidebar,
+.toc {
   background-color: var(--bg-secondary) !important;
+  font-family: var(--font-body) !important;
 }
 
-/* =================================================
-   HEADING HIERARCHY (THE PRETTY PART)
-   ================================================= */
+/* =====================================================
+   HEADINGS (THIS IS THE IMPORTANT PART)
+   ===================================================== */
 
-/* LIGHT MODE */
-html:not([data-theme="dark"]) article h2 {
-  color: #8a6a4a !important; /* warm soft brown */
+article h1 {
+  color: var(--heading-h1) !important;
 }
 
-html:not([data-theme="dark"]) article h3 {
-  color: #5f4a36 !important; /* muted ink brown */
+article h2 {
+  color: var(--heading-h2) !important;
 }
 
-/* DARK MODE */
-html[data-theme="dark"] article h2 {
-  color: #cbb8ff !important; /* soft lavender */
+article h3 {
+  color: var(--heading-h3) !important;
 }
 
-html[data-theme="dark"] article h3 {
-  color: #9f93b8 !important; /* muted violet-gray */
+article h4 {
+  color: var(--heading-h4) !important;
+}
+
+article h5 {
+  color: var(--heading-h5) !important;
+}
+
+article h6 {
+  color: var(--heading-h6) !important;
+}
+
+/* =====================================================
+   TEXT & LINKS
+   ===================================================== */
+
+article p,
+article li,
+article blockquote,
+article span {
+  color: var(--text-main) !important;
+  font-family: var(--font-body) !important;
+}
+
+a {
+  color: var(--heading-h2);
+}
+
+a:hover {
+  opacity: 0.85;
 }
