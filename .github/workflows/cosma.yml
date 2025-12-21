@@ -18,7 +18,7 @@ jobs:
           node-version: 20
 
       - name: Install Cosma
-        run: npm install -g obsidian-cosma
+        run: npm install -g @cosma/cli
 
       - name: Build graph
         run: cosma build cosma/config.json
