@@ -1,128 +1,105 @@
-/* =================================================
-   FLOWERSHOW FONT VARIABLE OVERRIDE (CRITICAL)
-================================================= */
+/* =========================
+   THEME COLOR VARIABLES
+   ========================= */
 
 :root {
-  --font-body: "Segoe UI",
+  /* Light theme */
+  --bg-main: #f3e8d6;          /* light tan */
+  --bg-secondary: #efe1c9;
+  --text-main: #2b2b2b;
+  --heading-light: #7a5c3e;   /* brown */
+
+  /* Fonts */
+  --font-body:
+    system-ui,
     -apple-system,
     BlinkMacSystemFont,
-    Inter,
+    "Segoe UI",
     Roboto,
+    "Noto Sans",
+    "Liberation Sans",
     Helvetica,
     Arial,
-    sans-serif !important;
+    sans-serif;
 
-  --font-ui: "Segoe UI",
-    -apple-system,
-    BlinkMacSystemFont,
-    Inter,
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif !important;
-
-  --font-mono: ui-monospace,
-    SFMono-Regular,
-    Menlo,
-    Monaco,
-    Consolas,
-    monospace !important;
+  --font-ui: var(--font-body);
 }
 
-/* =================================================
-   LIGHT MODE VARIABLES (tan + brown)
-================================================= */
-
-html {
-  --bg-main: #f3e8d5;
-  --bg-secondary: #efe2cc;
-
-  --text-main: #2e2a26;
-  --text-muted: #6b5f52;
-
-  --heading-color: #7a4a2e;
-}
-
-/* =================================================
-   DARK MODE VARIABLES (bluish purple black)
-================================================= */
-
-html.dark,
+/* Dark theme overrides */
 html[data-theme="dark"] {
-  --bg-main: #12101a;
-  --bg-secondary: #19162a;
-
-  --text-main: #e6e3f2;
-  --text-muted: #a9a3c7;
-
-  --heading-color: #c8b6ff;
+  --bg-main: #16131d;          /* bluish-purplish black */
+  --bg-secondary: #1f1b2a;
+  --text-main: #e6e6eb;
+  --heading-dark: #b48cff;    /* purple */
 }
 
-/* =================================================
-   APPLY BACKGROUNDS & BASE TEXT COLOR
-================================================= */
+/* =========================
+   BACKGROUNDS & TEXT
+   ========================= */
 
-body,
-main,
-article {
-  background-color: var(--bg-main);
-  color: var(--text-main);
+body {
+  background-color: var(--bg-main) !important;
+  color: var(--text-main) !important;
+  font-family: var(--font-body) !important;
 }
 
-/* Force dark mode backgrounds everywhere */
-html.dark body,
-html.dark main,
-html.dark article,
-html[data-theme="dark"] body,
-html[data-theme="dark"] main,
-html[data-theme="dark"] article {
-  background-color: var(--bg-main);
-  color: var(--text-main);
-}
-
-/* =================================================
-   APPLY SYSTEM FONT EVERYWHERE (FLOWERSHOW-SAFE)
-================================================= */
-
-body,
 main,
 article,
+.content,
+.page-content {
+  background-color: var(--bg-main) !important;
+  color: var(--text-main) !important;
+}
+
+/* Sidebar / nav areas */
 nav,
-header,
 aside,
+.sidebar {
+  background-color: var(--bg-secondary) !important;
+  font-family: var(--font-ui) !important;
+}
+
+/* =========================
+   FONTS
+   ========================= */
+
+/* Body text */
 article * {
   font-family: var(--font-body) !important;
 }
 
-/* =================================================
-   HEADINGS (COLOR + HIERARCHY)
-================================================= */
+/* =========================
+   HEADING COLORS (PER THEME)
+   ========================= */
 
-article h1,
-article h2,
-article h3,
-article h4,
-article h5,
-article h6 {
-  color: var(--heading-color) !important;
-  font-weight: 600;
+/* Light mode – brown headings */
+html:not([data-theme="dark"]) article
+:is(h1, h2, h3, h4, h5, h6) {
+  color: var(--heading-light) !important;
 }
 
-article h1 {
-  font-weight: 700;
-  letter-spacing: -0.02em;
+/* Dark mode – purple headings */
+html[data-theme="dark"] article
+:is(h1, h2, h3, h4, h5, h6) {
+  color: var(--heading-dark) !important;
 }
 
-article h2 {
-  font-weight: 600;
+/* =========================
+   SMALL QUALITY-OF-LIFE
+   ========================= */
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration-color: rgba(0, 0, 0, 0.3);
 }
 
-/* =================================================
-   MUTED / SECONDARY TEXT
-================================================= */
+html[data-theme="dark"] a {
+  text-decoration-color: rgba(255, 255, 255, 0.3);
+}
 
-small,
-.muted,
-.metadata {
-  color: var(--text-muted) !important;
+/* Code blocks */
+pre,
+code {
+  font-family: ui-monospace, "Liberation Mono", monospace !important;
 }
