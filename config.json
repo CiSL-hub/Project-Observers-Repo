@@ -1,5 +1,6 @@
 {
   "showSidebar": true,
+  "styles": ["styles/custom.css"],
   "theme": {
     "defaultMode": "dark",
     "showModeSwitch": true
