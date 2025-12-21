@@ -1,0 +1,10 @@
+{
+  "title": "CiSL Knowledge Graph",
+  "vaultPath": "../Project Observers",
+  "outputPath": "../cosma-dist",
+  "theme": "dark",
+  "features": {
+    "search": true,
+    "filters": true
+  }
+}
