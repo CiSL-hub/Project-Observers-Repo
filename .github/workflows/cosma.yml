@@ -17,9 +17,9 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install Cosma from GitHub
+      - name: Install Cosma (HTTPS)
         run: |
-          npm install cosma/obsidian-cosma
+          npm install https://github.com/cosma/obsidian-cosma.git
 
       - name: Build graph
         run: |
