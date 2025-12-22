@@ -34,4 +34,5 @@ await app.vault.adapter.write(
 // ✨ flavor text ✨
 dv.paragraph(`🧠 Nodes: ${nodes.length} • 🔗 Links: ${links.length}`);
 dv.paragraph("✅ Graph exported to graph/graph.json");
+
 ```
