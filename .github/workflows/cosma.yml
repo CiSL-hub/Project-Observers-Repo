@@ -17,9 +17,14 @@ jobs:
         with:
           node-version: 20
 
-      - name: Build graph with Cosma
-        run: npx github:cosma/obsidian-cosma build cosma/config.json
-  
+      - name: Install Cosma from GitHub
+        run: |
+          npm install cosma/obsidian-cosma
+
+      - name: Build graph
+        run: |
+          npx cosma build cosma/config.json
+
       - name: Deploy to GitHub Pages (graph)
         uses: peaceiris/actions-gh-pages@v3
         with:
