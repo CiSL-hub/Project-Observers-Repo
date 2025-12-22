@@ -10,16 +10,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout YOUR repo (Flowershow + Obsidian vault)
+      # 1️⃣ Checkout YOUR repo (Obsidian vault + Flowershow)
       - name: Checkout main repo
         uses: actions/checkout@v4
 
-      # 2️⃣ Checkout Cosma CLI repo (this is the scary part, handled)
-      - name: Checkout Cosma CLI
+      # 2️⃣ Checkout Cosma monorepo (CORRECT ONE)
+      - name: Checkout Cosma
         uses: actions/checkout@v4
         with:
-          repository: Cosma/obsidian-cosma
-          ref: main
+          repository: cosma/cosma
           path: cosma-cli
 
       # 3️⃣ Setup Node
@@ -28,16 +27,16 @@ jobs:
         with:
           node-version: 20
 
-      # 4️⃣ Install Cosma dependencies
+      # 4️⃣ Install dependencies
       - name: Install Cosma dependencies
         working-directory: cosma-cli
         run: npm install
 
-      # 5️⃣ Build the graph
+      # 5️⃣ Build graph from your Obsidian vault
       - name: Build graph
-        run: node cosma-cli/dist/index.js build cosma/config.json
+        run: node cosma-cli/packages/cli/dist/index.js build cosma/config.json
 
-      # 6️⃣ Deploy graph to GitHub Pages under /graph
+      # 6️⃣ Deploy to GitHub Pages under /graph
       - name: Deploy graph to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
