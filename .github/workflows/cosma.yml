@@ -9,21 +9,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout your repo
         uses: actions/checkout@v4
+
+      - name: Checkout Cosma repo (HTTPS)
+        uses: actions/checkout@v4
+        with:
+          repository: cosma/obsidian-cosma
+          path: cosma-cli
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Install Cosma (HTTPS)
-        run: |
-          npm install https://github.com/cosma/obsidian-cosma.git
+      - name: Install Cosma dependencies
+        working-directory: cosma-cli
+        run: npm install
 
       - name: Build graph
         run: |
-          npx cosma build cosma/config.json
+          node cosma-cli/dist/index.js build cosma/config.json
 
       - name: Deploy to GitHub Pages (graph)
         uses: peaceiris/actions-gh-pages@v3
