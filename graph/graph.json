@@ -1,0 +1,778 @@
+{
+  "nodes": [
+    {
+      "id": "Project Observers/Possible Routes.md",
+      "label": "Possible Routes"
+    },
+    {
+      "id": "Project Observers/Text Sources.md",
+      "label": "Text Sources"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md",
+      "label": "🌓 The Calamity"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌱 Old World.md",
+      "label": "🌱 Old World"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌺 New World.md",
+      "label": "🌺 New World"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🏛️ Realm of the Origin Gods.md",
+      "label": "🏛️ Realm of the Origin Gods"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/⛔ Spoilers! - Dea.md",
+      "label": "⛔ Spoilers! - Dea"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/⛔ Spoilers! - Exa.md",
+      "label": "⛔ Spoilers! - Exa"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Celvane.md",
+      "label": "📄 General data - Celvane"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Dea.md",
+      "label": "📄 General data - Dea"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Exa.md",
+      "label": "📄 General data - Exa"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Palistra Spiral.md",
+      "label": "📄 General data - Palistra Spiral"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Xyrea.md",
+      "label": "📄 General data - Xyrea"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Zordurix.md",
+      "label": "📄 General data - Zordurix"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Celvane.md",
+      "label": "🔍 Nitty Gritty - Celvane"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Dea.md",
+      "label": "🔍 Nitty Gritty - Dea"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Exa.md",
+      "label": "🔍 Nitty Gritty - Exa"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Zordurix.md",
+      "label": "🔍 Nitty Gritty - Zordurix"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md",
+      "label": "🌐 Zordurix"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/⭕ Celvane.md",
+      "label": "⭕ Celvane"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌑 Exa.md",
+      "label": "🌑 Exa"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌕 Dea.md",
+      "label": "🌕 Dea"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌘 Xyrea.md",
+      "label": "🌘 Xyrea"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/☀️ Aurethys.md",
+      "label": "☀️ Aurethys"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/⚫ The Hollow Sun.md",
+      "label": "⚫ The Hollow Sun"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/🌀 Palistra Spiral.md",
+      "label": "🌀 Palistra Spiral"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/🪐 Solar System.md",
+      "label": "🪐 Solar System"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "label": "💡 Observers Wiki"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/☯️ Soul and Spirit - The Children's Tale.md",
+      "label": "☯️ Soul and Spirit - The Children's Tale"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/☯️ Soul and Spirit - The Heretical Interpretation.md",
+      "label": "☯️ Soul and Spirit - The Heretical Interpretation"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/☯️ Soul and Spirit - The Orthodox Canon.md",
+      "label": "☯️ Soul and Spirit - The Orthodox Canon"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/⚫ The Complete Scripture.md",
+      "label": "⚫ The Complete Scripture"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/💤 The Clever Girl and The Gentle Beast.md",
+      "label": "💤 The Clever Girl and The Gentle Beast"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/🦋 The Heartless and The Husk.md",
+      "label": "🦋 The Heartless and The Husk"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/📆 A Pawn's Routine.md",
+      "label": "📆 A Pawn's Routine"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/🪦 Legend -  Lost Slate 1.md",
+      "label": "🪦 Legend -  Lost Slate 1"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/🪦 Legend - Lost Slate 2.md",
+      "label": "🪦 Legend - Lost Slate 2"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/🪦 Legend - Preserved Slate.md",
+      "label": "🪦 Legend - Preserved Slate"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/Data dump/📄 Older scripture - Soul and Spirit.md",
+      "label": "📄 Older scripture - Soul and Spirit"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/Data dump/📄 The release - Yrium.md",
+      "label": "📄 The release - Yrium"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/☯️ Soul and Spirit.md",
+      "label": "☯️ Soul and Spirit"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/❇️ Yrium.md",
+      "label": "❇️ Yrium"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/Possible Routes - Nori.md",
+      "label": "Possible Routes - Nori"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Husk.md",
+      "label": "📄 Notes - Husk"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Koharu.md",
+      "label": "📄 Notes - Koharu"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Nori.md",
+      "label": "📄 Notes - Nori"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Sal.md",
+      "label": "📄 Notes - Sal"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md",
+      "label": "☠️ Primordial Gods"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/⭐ Sal the Astronomical.md",
+      "label": "⭐ Sal the Astronomical"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🍃 Ci the Origin.md",
+      "label": "🍃 Ci the Origin"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🎣 Koharu the Quixote.md",
+      "label": "🎣 Koharu the Quixote"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🎭 Ayano The Husk.md",
+      "label": "🎭 Ayano The Husk"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/👁️ The Observers.md",
+      "label": "👁️ The Observers"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🕳️ Nori the Void.md",
+      "label": "🕳️ Nori the Void"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🪼 Elle the Everlasting.md",
+      "label": "🪼 Elle the Everlasting"
+    },
+    {
+      "id": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md",
+      "label": "💀 Primeval Gods"
+    },
+    {
+      "id": "Project Observers/Graph Export.md",
+      "label": "Graph Export"
+    }
+  ],
+  "links": [
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌑 Exa.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌕 Dea.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/❇️ Yrium.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌺 New World.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌱 Old World.md",
+      "target": "Birth - Old World"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌱 Old World.md",
+      "target": "Death - Old World"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/☀️ Aurethys.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Celvane.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251222012130.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Celvane.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251222012155.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Dea.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221180947.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Dea.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221180952.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Exa.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221180600.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Exa.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221180608.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221165101.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221165127.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221165202.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221165207.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221165235.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221165314.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221165338.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/attachments/Pasted image 20251221165404.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/☀️ Aurethys.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🏛️ Realm of the Origin Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Zordurix.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Zordurix.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌑 Exa.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌕 Dea.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌘 Xyrea.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/⭕ Celvane.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/⭕ Celvane.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/⭕ Celvane.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Celvane.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/⭕ Celvane.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Celvane.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌑 Exa.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Exa.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌑 Exa.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Exa.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌑 Exa.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/⛔ Spoilers! - Exa.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌕 Dea.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Dea.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌕 Dea.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/🔍 Nitty Gritty - Dea.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌕 Dea.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/⛔ Spoilers! - Dea.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌘 Xyrea.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌘 Xyrea.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌑 Exa.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌘 Xyrea.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌕 Dea.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌘 Xyrea.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Xyrea.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌘 Xyrea.md",
+      "target": "🔍 Nitty Gritty - Xyrea"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/⚫ The Hollow Sun.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/⚫ The Complete Scripture.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/⚫ The Hollow Sun.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/🪦 Legend - Preserved Slate.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/⚫ The Hollow Sun.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/🪦 Legend -  Lost Slate 1.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/⚫ The Hollow Sun.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/🪦 Legend - Lost Slate 2.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/🌀 Palistra Spiral.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Data dump/📄 General data - Palistra Spiral.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/🌀 Palistra Spiral.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/🪐 Solar System.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/🌀 Palistra Spiral.md",
+      "target": "☄️ Asteroid ring"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/🪐 Solar System.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/☀️ Aurethys.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/🪐 Solar System.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/⚫ The Hollow Sun.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/🌀 Palistra Spiral.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🏛️ Realm of the Origin Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌱 Old World.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌺 New World.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/👁️ The Observers.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "🦂 Hotentotta Tamulus Crew"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "🛄 Haru's Household"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "🚫 Other Characters"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/🦋 The Heartless and The Husk.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "🥬 Cabbage rolls and Butterflies"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/📆 A Pawn's Routine.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "🐍 The Forlorn Lamia"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/⚫ The Complete Scripture.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/💤 The Clever Girl and The Gentle Beast.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/☯️ Soul and Spirit - The Children's Tale.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/☯️ Soul and Spirit.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/💡 Observers Wiki.md",
+      "target": "🗺️ Maps"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/🦋 The Heartless and The Husk.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🍃 Ci the Origin.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/🦋 The Heartless and The Husk.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🎭 Ayano The Husk.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/📆 A Pawn's Routine.md",
+      "target": "Gronk"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/📆 A Pawn's Routine.md",
+      "target": "Pawn"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/📆 A Pawn's Routine.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/💤 The Clever Girl and The Gentle Beast.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/Data dump/📄 The release - Yrium.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/Data dump/📄 The release - Yrium.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/❇️ Yrium.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/☯️ Soul and Spirit.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/☯️ Soul and Spirit - The Orthodox Canon.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/☯️ Soul and Spirit.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/☯️ Soul and Spirit - The Heretical Interpretation.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/☯️ Soul and Spirit.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/📖 Legends and Tales/☯️ Soul and Spirit - The Children's Tale.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/☯️ Soul and Spirit.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/Data dump/📄 Older scripture - Soul and Spirit.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/❇️ Yrium.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/❇️ Yrium.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/❇️ Yrium.md",
+      "target": "📤 The release - Yrium"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Husk.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/Data dump/attachments/Pasted image 20251220203938.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Koharu.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/attachments/Pasted image 20251222000018.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Koharu.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/attachments/Pasted image 20251222000026.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Koharu.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/attachments/Pasted image 20251222000033.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Koharu.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/attachments/Pasted image 20251222000042.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Nori.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/attachments/Pasted image 20251221233120.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Sal.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/attachments/Pasted image 20251221232347.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Sal.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/attachments/Pasted image 20251221232359.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Sal.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/attachments/Pasted image 20251221232407.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Sal.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/attachments/Pasted image 20251221232413.png"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🏛️ Realm of the Origin Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🍃 Ci the Origin.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🪼 Elle the Everlasting.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/⭐ Sal the Astronomical.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🕳️ Nori the Void.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🎣 Koharu the Quixote.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md",
+      "target": "🍂 Li the Calamity"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/⭐ Sal the Astronomical.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/⭐ Sal the Astronomical.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🌌 Cosmography/Zordurix and within/🌐 Zordurix.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/⭐ Sal the Astronomical.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🍃 Ci the Origin.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/⭐ Sal the Astronomical.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/❇️ Yrium.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/⭐ Sal the Astronomical.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Sal.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🍃 Ci the Origin.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🍃 Ci the Origin.md",
+      "target": "🥬Cabbage rolls"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🍃 Ci the Origin.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🎭 Ayano The Husk.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🍃 Ci the Origin.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🧩 Concepts and others/❇️ Yrium.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🍃 Ci the Origin.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/👁️ The Observers.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🎣 Koharu the Quixote.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🎣 Koharu the Quixote.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Koharu.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🎭 Ayano The Husk.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Husk.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🕳️ Nori the Void.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🕳️ Nori the Void.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🍃 Ci the Origin.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🕳️ Nori the Void.md",
+      "target": "🐈‍⬛ Ange"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🕳️ Nori the Void.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/📄 Notes - Nori.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🕳️ Nori the Void.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/Data dump - Godly beings/Possible Routes - Nori.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🪼 Elle the Everlasting.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🪼 Elle the Everlasting.md",
+      "target": "🐚 Stormsurge Citadel"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/🎭 Ayano The Husk.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/⏳ Chronology/🌓 The Calamity.md"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md",
+      "target": "🚹 Numa the Epistemophile"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md",
+      "target": "🏴‍☠️ Cap'n Tainted"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md",
+      "target": "🦊 Tomiko"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md",
+      "target": "🐈‍⬛ Ange"
+    },
+    {
+      "source": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/💀 Primevals/💀 Primeval Gods.md",
+      "target": "Project Observers/👁️‍🗨️ Observers Wiki/🪪 Characters/Godly beings/☠️ Primordials/☠️ Primordial Gods.md"
+    }
+  ]
+}
