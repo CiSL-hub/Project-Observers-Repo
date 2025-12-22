@@ -23,7 +23,7 @@
 
   <script src="https://unpkg.com/force-graph"></script>
   <script>
-    fetch("/graph/graph.json")
+    fetch("./graph.json")
       .then(r => r.json())
       .then(data => {
         ForceGraph()(document.getElementById("graph"))
