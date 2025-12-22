@@ -1,11 +1,11 @@
 
 Once, the Gods and mortals shared abode. The aforementioned Gods lives for a long - long time and holds supreme power capable of colossal change.
 
-There was one God in particular, who stood out from the rest. He was cold and distant. He stood not alongside mortals. He was selfish and was unable to understand the mind of others. He was strong, but was so different from the rest. He was what people called [[The Origin]], the God of creation
+There was one God in particular, who stood out from the rest. He was cold and distant. He stood not alongside mortals. He was selfish and was unable to understand the mind of others. He was strong, but was so different from the rest. He was what people called [[🍃 Ci the Origin]], the God of creation
 
 God of creation was not worshiped nor viewed highly however. He could not understand the mind of others and have given up in trying, thus everyone around him did the same for a long - long time.
 
-However, suffering from loneliness and isolation, he created a figure, [[The Husk]] that should keep him company.
+However, suffering from loneliness and isolation, he created a figure, [[🎭 Ayano The Husk]] that should keep him company.
 
 He gave the husk a name, and half of what he owns, including personality, life, the ability for making decisions, even half of his own power and told the husk to stay and guard the abode he was living in, thus making the husk bound to that place.
 
