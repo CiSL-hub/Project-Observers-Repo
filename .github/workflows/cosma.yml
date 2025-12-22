@@ -2,36 +2,43 @@ name: Build Obsidian Graph (Cosma)
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build-cosma:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout your repo
+      # 1️⃣ Checkout YOUR repo (Flowershow + Obsidian vault)
+      - name: Checkout main repo
         uses: actions/checkout@v4
 
-      - name: Checkout Cosma repo (HTTPS)
+      # 2️⃣ Checkout Cosma CLI repo (this is the scary part, handled)
+      - name: Checkout Cosma CLI
         uses: actions/checkout@v4
         with:
-          repository: cosma/obsidian-cosma
+          repository: Cosma/obsidian-cosma
+          ref: main
           path: cosma-cli
 
-      - name: Setup Node
+      # 3️⃣ Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
+      # 4️⃣ Install Cosma dependencies
       - name: Install Cosma dependencies
         working-directory: cosma-cli
         run: npm install
 
+      # 5️⃣ Build the graph
       - name: Build graph
-        run: |
-          node cosma-cli/dist/index.js build cosma/config.json
+        run: node cosma-cli/dist/index.js build cosma/config.json
 
-      - name: Deploy to GitHub Pages (graph)
+      # 6️⃣ Deploy graph to GitHub Pages under /graph
+      - name: Deploy graph to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
