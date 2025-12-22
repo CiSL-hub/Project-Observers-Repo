@@ -26,13 +26,44 @@
     fetch("./graph.json")
       .then(r => r.json())
       .then(data => {
-        ForceGraph()(document.getElementById("graph"))
+        const Graph = ForceGraph()(document.getElementById("graph"))
           .graphData(data)
+
+          // identity
           .nodeId("id")
           .nodeLabel("label")
-          .nodeAutoColorBy("id")
-          .linkDirectionalParticles(1)
-          .linkDirectionalParticleSpeed(0.002);
+          .nodeAutoColorBy("group")
+
+          // interaction
+          .enableNodeDrag(true)
+          .enableZoomPanInteraction(true)
+
+          // physics stability
+          .cooldownTicks(200)
+          .d3AlphaDecay(0.02)
+          .d3VelocityDecay(0.3)
+
+          // visuals
+          .nodeRelSize(6)
+          .linkOpacity(0.3)
+
+          // click to focus
+          .onNodeClick(node => {
+            Graph.centerAt(node.x, node.y, 600);
+            Graph.zoom(3, 600);
+          })
+
+          // prevent node-disappearing hell
+          .onNodeDragEnd(node => {
+            node.fx = node.x;
+            node.fy = node.y;
+          });
+
+        // iframe resize safety
+        window.addEventListener("resize", () => {
+          Graph.width(window.innerWidth);
+          Graph.height(window.innerHeight);
+        });
       });
   </script>
 </body>
