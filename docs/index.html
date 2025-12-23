@@ -2,86 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Obsidian Graph</title>
-
+  <title>Observers Graph</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       width: 100%;
       height: 100%;
-      background: #0f0f14;
       overflow: hidden;
+      background: #0f0f14;
+      font-family: system-ui, sans-serif;
     }
-
     #graph {
       width: 100%;
       height: 100%;
     }
   </style>
 </head>
-
 <body>
   <div id="graph"></div>
 
   <script src="https://unpkg.com/force-graph"></script>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-
   <script>
     const container = document.getElementById("graph");
 
     fetch("./graph.json")
       .then(res => res.json())
       .then(data => {
-
         const graph = ForceGraph()(container)
           .graphData(data)
 
-          /* ---- SIZE ---- */
-          .width(container.clientWidth)
-          .height(container.clientHeight)
-
-          /* ---- NODES ---- */
+          /* Nodes */
           .nodeId("id")
           .nodeLabel("label")
-          .nodeRelSize(5)
           .nodeAutoColorBy(d => d.id.split("/")[0])
+          .nodeRelSize(6)
 
-          /* ---- LINKS ---- */
+          /* Links */
           .linkWidth(1)
-          .linkColor(() => "rgba(180,180,200,0.35)")
+          .linkColor(() => "rgba(180,180,220,0.35)")
+          .linkDirectionalParticles(0)
 
-          /* ---- PHYSICS ---- */
+          /* Physics */
           .d3Force("charge", d3.forceManyBody().strength(-120))
-          .d3Force("link", d3.forceLink().distance(60).strength(0.8))
+          .d3Force("link", d3.forceLink().distance(60).strength(0.7))
           .d3Force("center", d3.forceCenter())
 
-          /* ---- INTERACTION ---- */
-          .onNodeDrag(node => {
-            node.fx = node.x;
-            node.fy = node.y;
-            graph.d3ReheatSimulation();   // 🔥 THIS IS THE KEY
-          })
-
-          .onNodeDragEnd(node => {
-            node.fx = null;
-            node.fy = null;
-            graph.d3ReheatSimulation();
-          })
-
+          /* Interaction */
           .onNodeClick(node => {
-            const path = node.id.replace(/\.md$/, "");
-            window.location.href =
-              `https://my.flowershow.app/@CiSL-hub/Project-Observers-Repo/${path}`;
-          });
+            const cleanPath = node.id.replace(/\.md$/, "");
+            const url = `https://my.flowershow.app/@CiSL-hub/Project-Observers-Repo/${cleanPath}`;
+            window.open(url, "_blank");
+          })
 
-        /* ---- RESIZE FIX ---- */
+          .zoomToFit(400, 80);
+
         window.addEventListener("resize", () => {
-          graph
-            .width(container.clientWidth)
-            .height(container.clientHeight);
+          graph.width(container.clientWidth);
+          graph.height(container.clientHeight);
         });
-
-        /* ---- INITIAL SETTLE ---- */
-        setTimeout(() => graph.zoomToFit(400), 500);
-      })
+      });
+  </script>
+</body>
+</html>
