@@ -11,6 +11,7 @@
       height: 100%;
       overflow: hidden;
       background: #0f0f14;
+      font-family: system-ui, sans-serif;
     }
     #graph {
       width: 100%;
@@ -26,44 +27,72 @@
     fetch("./graph.json")
       .then(r => r.json())
       .then(data => {
-        const Graph = ForceGraph()(document.getElementById("graph"))
-          .graphData(data)
 
-          // identity
-          .nodeId("id")
-          .nodeLabel("label")
-          .nodeAutoColorBy("group")
+        // ─────────────────────────────────────
+        // 1️⃣ Remove ghost links (CRITICAL)
+        // ─────────────────────────────────────
+        const nodeIds = new Set(data.nodes.map(n => n.id));
+        data.links = data.links.filter(l =>
+          nodeIds.has(l.source) && nodeIds.has(l.target)
+        );
 
-          // interaction
-          .enableNodeDrag(true)
-          .enableZoomPanInteraction(true)
-
-          // physics stability
-          .cooldownTicks(200)
-          .d3AlphaDecay(0.02)
-          .d3VelocityDecay(0.3)
-
-          // visuals
-          .nodeRelSize(6)
-          .linkOpacity(0.3)
-
-          // click to focus
-          .onNodeClick(node => {
-            Graph.centerAt(node.x, node.y, 600);
-            Graph.zoom(3, 600);
-          })
-
-          // prevent node-disappearing hell
-          .onNodeDragEnd(node => {
-            node.fx = node.x;
-            node.fy = node.y;
-          });
-
-        // iframe resize safety
-        window.addEventListener("resize", () => {
-          Graph.width(window.innerWidth);
-          Graph.height(window.innerHeight);
+        // ─────────────────────────────────────
+        // 2️⃣ Map node → Flowershow page URL
+        // ─────────────────────────────────────
+        data.nodes.forEach(n => {
+          n.url = n.id
+            .replace(/\.md$/, "")
+            .replace(/^Project Observers\//, "/");
         });
+
+        // ─────────────────────────────────────
+        // 3️⃣ Build graph
+        // ─────────────────────────────────────
+        const Graph = ForceGraph()
+          (document.getElementById("graph"))
+            .graphData(data)
+
+            // identity
+            .nodeId("id")
+            .nodeLabel("label")
+            .nodeAutoColorBy("group")
+
+            // physics (Obsidian-ish tuning)
+            .d3AlphaDecay(0.02)
+            .d3VelocityDecay(0.35)
+            .cooldownTicks(0)
+
+            // visuals
+            .nodeRelSize(5)
+            .linkOpacity(0.35)
+            .linkWidth(1)
+
+            // interaction
+            .enableNodeDrag(true)
+            .enableZoomPanInteraction(true)
+
+            // hover highlight
+            .onNodeHover(node => {
+              const highlight = new Set();
+              if (node) {
+                highlight.add(node);
+                data.links.forEach(l => {
+                  if (l.source === node.id) highlight.add(l.target);
+                  if (l.target === node.id) highlight.add(l.source);
+                });
+              }
+              Graph.nodeColor(n =>
+                highlight.has(n) ? "#ffffff" : Graph.nodeAutoColorBy()
+              );
+            })
+
+            // click → open page
+            .onNodeClick(n => {
+              if (n.url) window.open(n.url, "_self");
+            })
+
+            // IMPORTANT: do NOT pin nodes
+            .onNodeDragEnd(() => {});
       });
   </script>
 </body>
