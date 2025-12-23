@@ -1,1 +1,1 @@
-🔗 [Open Graph View](/@CiSL-hub/Project-Observers-Repo/graph/index.html)
+🔗 [Open Interactive Graph](https://cisl-hub.github.io/Project-Observers-Repo/)
