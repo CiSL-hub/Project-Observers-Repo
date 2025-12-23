@@ -26,50 +26,41 @@
     const container = document.getElementById("graph");
 
     fetch("./graph.json")
-      .then(res => res.json())
+      .then(r => r.json())
       .then(data => {
         const graph = ForceGraph()(container)
           .graphData(data)
 
-          /* ===== NODES ===== */
+          /* ---- NODE CONFIG ---- */
           .nodeId("id")
           .nodeLabel("label")
-          .nodeRelSize(6)
           .nodeAutoColorBy(d => d.id.split("/")[0])
+          .nodeRelSize(6)
 
-          /* ===== LINKS ===== */
+          /* ---- LINK CONFIG ---- */
           .linkWidth(1)
-          .linkColor(() => "rgba(180,180,200,0.4)")
+          .linkColor(() => "rgba(180,180,200,0.35)")
+          .linkDirectionalParticles(0)
 
-          /* ===== PHYSICS (STABLE) ===== */
-          .d3VelocityDecay(0.4)
-          .d3Force("charge").strength(-180)
-          .d3Force("link").distance(70).strength(0.6)
-          .cooldownTicks(200)
-          .cooldownTime(15000)
+          /* ---- PHYSICS (IMPORTANT) ---- */
+          .d3Force("charge").strength(-120)
+          .d3Force("link").distance(60).strength(0.8)
+          .d3Force("center", d3.forceCenter())
 
-          /* ===== DRAG BEHAVIOR ===== */
-          .onNodeDrag(node => {
+          /* ---- INTERACTION ---- */
+          .onNodeDragEnd(node => {
             node.fx = node.x;
             node.fy = node.y;
           })
-          .onNodeDragEnd(node => {
-            node.fx = null;
-            node.fy = null;
-          })
-
-          /* ===== CLICK NAVIGATION ===== */
           .onNodeClick(node => {
-            const cleanPath = encodeURI(
-              "/" + node.id.replace(/\.md$/, "")
-            );
-            window.location.href = cleanPath;
+            const path = node.id.replace(/\.md$/, "");
+            window.open(`/${path}`, "_self");
           })
 
-          /* ===== CAMERA ===== */
+          /* ---- CAMERA ---- */
           .zoomToFit(400, 80);
 
-        /* Resize safety */
+        /* ---- HANDLE RESIZE ---- */
         window.addEventListener("resize", () => {
           graph.width(container.clientWidth);
           graph.height(container.clientHeight);
