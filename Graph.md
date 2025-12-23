@@ -1,5 +1,4 @@
-## 🌌 Graph
-
-🔗 **[Open Interactive Graph](https://my.flowershow.app/@CiSL-hub/Project-Observers-Repo/)**
-
-> Opens the full Obsidian-style graph in a new tab.
+<iframe 
+  src="https://cisl-hub.github.io/Project-Observers-Repo/graph/graph.html" 
+  style="width:100%; height:85vh; border:none; border-radius:12px;"> 
+</iframe> 
