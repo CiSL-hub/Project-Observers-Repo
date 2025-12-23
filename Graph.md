@@ -1,5 +1,5 @@
 ## 🌌 Knowledge Graph
 
-🔗 **[Open Interactive Graph](https://<your-username>.github.io/<repo-name>/)**
+🔗 **[Open Interactive Graph](https://my.flowershow.app/@CiSL-hub/Project-Observers-Repo/)**
 
 > Opens the full Obsidian-style graph in a new tab.
