@@ -1,4 +1,4 @@
-## 🌌 Knowledge Graph
+## 🌌 Graph
 
 🔗 **[Open Interactive Graph](https://my.flowershow.app/@CiSL-hub/Project-Observers-Repo/)**
 
