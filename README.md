@@ -1,6 +1,6 @@
-# Welcome! 🌸
+# 👁️‍🗨️ Project Observers Vault
 
-To the public showcase of my personal IP Project Observers!
+Welcome to the public showcase of my personal IP Project Observers!
 
 ## What am I looking at?
 
@@ -18,6 +18,13 @@ Like any art, it will have a hard time serving the broader purpose of bridging i
 
 I am human just like any others, and I do procrastinate too. This shall be a constant reminder to me to keep updating the wiki and working on it because others can see it too.
 
+### 3. Simple Graph
+
+Although uninteractable, the graph shows the current contents of the wiki.
+
+<img width="365" height="355" alt="image" src="https://github.com/user-attachments/assets/2ec40db6-5389-43ed-8d62-2c4feac5f922" />
+
+
 ## Footnote
 
 This IP is a lifetime of work and a legacy to me. Whatever I left here shall be one of my best works throughout my life.
@@ -25,4 +32,4 @@ I hope it is entertaining to explore.
 
 ---
 
-Happy Reading! 🚀
+Happy Reading! 📖
