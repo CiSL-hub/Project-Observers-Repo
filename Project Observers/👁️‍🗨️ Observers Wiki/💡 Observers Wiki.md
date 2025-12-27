@@ -22,7 +22,7 @@ A wiki containing a dedicated world made as an IP by CiSL in which the story of 
 - [[👁️ The Observers]]
 - [[☠️ Primordial Gods]]
 - [[💀 Primeval Gods]]
-- [[🦂 Hotentotta Tamulus Crew]]
+- [[🦂 H.T. Mercenaries]]
 - [[🛄 Haru's Household]]
 - [[🚫 Other Characters]]
 
@@ -35,11 +35,19 @@ A wiki containing a dedicated world made as an IP by CiSL in which the story of 
 - [[🐍 The Forlorn Lamia]]
 - [[⚫ The Complete Scripture]]
 - [[💤 The Clever Girl and The Gentle Beast]]
-- [[☯️ Soul and Spirit - The Children's Tale]]
+- [[☯️ Retelling - Soul and Spirit - The Children's Tale]]
+- [[⏪ The Quill who Counted Water]]
+- [[🪼 The Everlasting]]
+- [[🐚 The Waning Orison]]
 
 ---
-### Others
+### Concepts
 
 - [[☯️ Soul and Spirit]]
 - [[🗺️ Maps]]
 
+
+### Others
+
+- [[Text Sources]]
+- [[Implementation - Possible Routes]]
