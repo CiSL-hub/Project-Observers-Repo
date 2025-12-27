@@ -8,6 +8,8 @@ Mortals within Zordurix who achieved Godhood status by either obtaining immense 
 All of the mortals who reached Godhood before [[🌓 The Calamity]] event transpired.
 
 - [[🎭 Ayano The Husk]]
+- [[🐍 Lamia]]
+- [[🍒 Cherrips]]
 
 
 ### Primordial Gods - After Calamity
@@ -18,6 +20,7 @@ All of the mortals who reached Godhood After [[🌓 The Calamity]] event transpi
 - [[🏴‍☠️ Cap'n Tainted]]
 - [[🦊 Tomiko]]
 - [[🐈‍⬛ Ange]]
+- [[❄️ Yukii]]
 
 
 ---
