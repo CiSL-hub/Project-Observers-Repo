@@ -1,0 +1,4 @@
+
+"In the age when stars still wept, a black sun was born from heaven’s collapse. From its heart fell the Eclipsed Core, jewel of endless night, keeper of desire eternal. It was said that the Core did not destroy but remembered. Into its depths all things could be poured—sorrows, prayers, longings—and from it the world would bend, reshaped to answer the yearning of the heart. Kings sought it to build empires, priests sought it to speak with gods, and lovers whispered to it for forevermore. For to hold the Core was to command fate itself, the chalice of infinity." 
+
+*“A wish cast into the hollow star returns as destiny.”*
