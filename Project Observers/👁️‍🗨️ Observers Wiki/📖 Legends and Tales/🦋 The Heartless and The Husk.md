@@ -21,7 +21,7 @@ However… The good times came and went, their duration short-lived.
 
 The [Calamity](https://www.notion.so/The-Calamity-9061749879fa48d0916eb011fa9aecca?pvs=21) happened, and everyone was in turmoil. Some of the Gods sheltered the mortals, some Gods were weak and was hopeless when it happened. Some of the Gods fled to another dwelling. The God of creation however, stays to protect the mortals.
 
-The God of creation, who has collosal amount of power, was unfortunately not strong enough to negate the event. He could not destroy, nor create anything to prevent it from happening. The Husk knew of this but sticks with the God to help him out. She believed that together, they might be able to pull something off.
+The God of creation, who has colossal amount of power, was unfortunately not strong enough to negate the event. He could not destroy, nor create anything to prevent it from happening. The Husk knew of this but sticks with the God to help him out. She believed that together, they might be able to pull something off.
 
 The God could not recreate all living beings as his life force wouldn’t even be nearly enough to do so. Even if he somehow manages that, the new world wouldn’t be habitable for them.
 
@@ -34,5 +34,3 @@ At his last moments, He said to the husk that he will miss her, their time toget
 In an instant, a tree sprouted and grew into towering heights. The ash-black sky splits in half, revealing a beam of light shining down a path to a newly spawned tree. The residual power from the shattered barrier bursts through the sky, reaching every corner of the world while summoning a gentle rain and mist. A turquoise colored solution spews out of the tree resembling a waterfall, flowing down its branches. And as the light of the new day dawned, the first signs of growth appeared around the tree, a testament to his sacrifice and his unwavering determination.
 
 It was a happy ending to everyone except the husk. The husk collapses to the ground and wept silently beside the tree as everyone rejoiced. As she mourns, a gentle calm voice could be heard everywhere that says:  _“May my body disintegrate, enriching the lands, the skies and seas, and my soul be forever rooted into all that lives”._
-
-The Husk was named Satou Ayano, and The God was called Ci.

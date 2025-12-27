@@ -46,14 +46,14 @@ They say one has begun to live.
 
 ### Mortal Depictions
 
-- [[☯️ Soul and Spirit - The Orthodox Canon]]
-- [[☯️ Soul and Spirit - The Heretical Interpretation]]
-- [[☯️ Soul and Spirit - The Children's Tale]]
+- [[☯️ Retelling - Soul and Spirit - The Orthodox Canon]]
+- [[☯️ Retelling - Soul and Spirit - The Heretical Interpretation]]
+- [[☯️ Retelling - Soul and Spirit - The Children's Tale]]
 
 
 ---
 ### Others
 
-- [[📄 Older scripture - Soul and Spirit]]
+- [[📄 Older manuscript - Soul and Spirit]]
 
 
