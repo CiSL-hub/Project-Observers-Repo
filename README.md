@@ -20,7 +20,7 @@ I am human just like any others, and I do procrastinate too. This shall be a con
 
 ### 3. Simple Graph
 
-Although uninteractable, the graph shows the current contents of the wiki.
+Although uninteractable, the graph shows the current contents of the wiki. I just wanna showcase it cuz I think it looks cool, idk.
 
 <img width="365" height="355" alt="image" src="https://github.com/user-attachments/assets/2ec40db6-5389-43ed-8d62-2c4feac5f922" />
 
