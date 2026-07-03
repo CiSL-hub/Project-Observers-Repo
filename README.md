@@ -18,11 +18,11 @@ Like any art, it will have a hard time serving the broader purpose of bridging i
 
 I am human just like any others, and I do procrastinate too. This shall be a constant reminder to me to keep updating the wiki and working on it because others can see it too.
 
-### 3. Simple Graph
+### 3. Showing off graph's development
 
 Although uninteractable, the graph shows the current contents of the wiki. I just wanna showcase it cuz I think it looks cool, idk.
 
-<img width="365" height="355" alt="image" src="https://github.com/user-attachments/assets/2ec40db6-5389-43ed-8d62-2c4feac5f922" />
+<img width="856" height="851" alt="image" src="https://github.com/user-attachments/assets/9729ef66-bd2f-4252-a7b3-c72bf8dde6c5" />
 
 
 ## Footnote
