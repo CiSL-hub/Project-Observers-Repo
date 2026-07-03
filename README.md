@@ -22,7 +22,7 @@ I am human just like any others, and I do procrastinate too. This shall be a con
 
 Although uninteractable, the graph shows the current contents of the wiki. I just wanna showcase it cuz I think it looks cool, idk.
 
-<img width="856" height="851" alt="image" src="https://github.com/user-attachments/assets/9729ef66-bd2f-4252-a7b3-c72bf8dde6c5" />
+<img width="248" height="261" alt="image" src="https://github.com/user-attachments/assets/49715e29-471c-4594-bf95-e5d322c6624f" />
 
 
 ## Footnote
