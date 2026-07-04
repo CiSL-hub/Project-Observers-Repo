@@ -1,5 +1,5 @@
 /* =================================================
-   FLOWERSHOW — COZY BOOK THEME (FOR REAL FINAL 😤)
+   FLOWERSHOW — COZY BOOK THEME
    ================================================= */
 
 /* -------------------------
@@ -23,6 +23,11 @@
     Helvetica, Arial, sans-serif;
 
   --next-font-heading: var(--next-font-body);
+
+  /* 🕸️ Knowledge Graph - Light Mode Theme Mapping */
+  --graph-node-color: #7a5c3e;         /* Match H1 rich brown */
+  --graph-node-text: #5f4a36;          /* Match H2-H6 cozy brown */
+  --graph-edge-line: rgba(95, 74, 54, 0.25); /* Subtle ink line connection */
 }
 
 /* -------------------------
@@ -35,6 +40,11 @@
 
   --color-foreground-600: #e6e6eb; /* body text */
   --color-foreground-900: #b48cff; /* H1 – purple */
+
+  /* 🕸️ Knowledge Graph - Dark Mode Theme Mapping */
+  --graph-node-color: #b48cff;         /* Match H1 purple */
+  --graph-node-text: #9f93b8;          /* Match H2-H6 soft violet */
+  --graph-edge-line: rgba(159, 147, 184, 0.25); /* Soft purple connection */
 }
 
 /* -------------------------
@@ -56,7 +66,7 @@ aside,
 }
 
 /* =================================================
-   ✨ THE MISSING PIECE — PROSE HEADING COLORS ✨
+   ✨ PROSE HEADING COLORS ✨
    ================================================= */
 
 /* LIGHT MODE — book ink */
@@ -67,4 +77,32 @@ html:not([data-theme="dark"]) .rendered-mdx:not(.is-plain) {
 /* DARK MODE — night purple */
 html[data-theme="dark"] .rendered-mdx:not(.is-plain) {
   --tw-prose-headings: #9f93b8; /* soft violet for H2–H6 */
+}
+
+
+/* =================================================
+   🕸️ GRAPH OVERRIDES (INTEGRATED THEME ARCHITECTURE)
+   ================================================= */
+
+/* 1. Link Thickness (Obsidian Setup: 0.40) */
+.flowershow-graph-edge, 
+.graph-view .edge {
+  stroke: var(--graph-edge-line) !important;
+  stroke-width: 0.4px !important; /* Perfect match for your line layout */
+}
+
+/* 2. Graph Node Elements */
+.flowershow-graph-node,
+.graph-view .node {
+  fill: var(--graph-node-color) !important;
+}
+
+/* 3. Style Text Labels to match Font and Color */
+.flowershow-graph-node-text, 
+.graph-view .node-label {
+  font-family: var(--next-font-body) !important;
+  fill: var(--graph-node-text) !important;
+  color: var(--graph-node-text) !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
 }
