@@ -35,7 +35,7 @@
    ------------------------- */
 
 :root[data-theme="dark"] {
-  --bg-main: #2e2852;
+  --bg-main: #20153b;
   --bg-secondary: #160c2e;
 
   --color-foreground-600: #e6e6eb; /* body text */
