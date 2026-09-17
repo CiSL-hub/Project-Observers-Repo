@@ -8,7 +8,7 @@ This page is just the welcoming screen to the vault itself. You can choose where
 
 ## The purpose
 
-There are a lot of reasons for this showcase, some of them are:
+There are a lot of reasons for this showcase, some of them includes:
 
 ### 1. Getting it out there
 
