@@ -35,8 +35,8 @@
    ------------------------- */
 
 :root[data-theme="dark"] {
-  --bg-main: ##2e2852;
-  --bg-secondary: #1f1b2a;
+  --bg-main: #2e2852;
+  --bg-secondary: #160c2e;
 
   --color-foreground-600: #e6e6eb; /* body text */
   --color-foreground-900: #b48cff; /* H1 – purple */
